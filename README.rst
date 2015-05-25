@@ -24,3 +24,8 @@ Run the emulator
 
 TODO.
 
+
+Example in video
+----------------
+
+- `zettwerk.mobile + zettwerk.mobiletheming + phonegap for Plone <https://www.youtube.com/watch?v=Q2ID86XkiQQ>`_
