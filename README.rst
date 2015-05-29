@@ -18,7 +18,7 @@ Requeriments
 - Access to Addon Configuration ``Mobile theming``, then 
   set the ``Hostnames`` to apply the mobile theme as *http://127.0.0.1:8081*.
 
-- Choice the *zettwerk.mobile theme* option, in ``Theme Name`` field and clic in ``Save`` button.
+- Choice the **zettwerk.mobile theme** option, in ``Theme Name`` field and clic in ``Save`` button.
 
 Build the application
 ---------------------
