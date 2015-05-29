@@ -7,7 +7,7 @@ An Plone site as an apk (Android app with PhoneGap). In detail, this is a
 Requeriments
 ------------
 
-- Latest `PhoneGap http://phonegap.com/install/>`_ version installed.
+- Latest `PhoneGap <http://phonegap.com/install/>`_ version installed.
 
 - A Plone site created using `plonethemes.suite <https://github.com/plone-ve/plonethemes.suite>`_.
 
