@@ -89,4 +89,4 @@ Examples
 
 - Demo Portal with activated theme: `http://mobile-demo.zettwerk.com <http://mobile-demo.zettwerk.com>`_.
 
-- Demo APK (Android App) that points to the Demo Portal: `HelloWorld-debug.apk <https://github.com/macagua/plone_site_into_mobile/HelloWorld-debug.apk>`_.
+- Demo APK (Android App) that points to the Demo Portal: `HelloWorld-debug.apk <https://github.com/macagua/plone_site_into_mobile/raw/master/HelloWorld-debug.apk>`_.
