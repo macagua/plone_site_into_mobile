@@ -13,14 +13,43 @@ Requeriments
 
 - You need an accessable IP or domain name. For instance, we assume that your local instance is running on a server with the IP **192.168.10.66** on Port **8081**
 
-- The Plone id should be **Mobile**.
 
-- Enabled the addon **zettwerk.mobile**.
+Configure Plone
+---------------
 
-- Access to Addon Configuration ``Mobile theming``, then
-  set the ``Hostnames`` to apply the mobile theme as *http://192.168.10.66:8081*.
+- Extend your buildout to include the egg **zettwerk.mobile** and re-run buildout.
 
-- Choose the **zettwerk.mobile** theme via tha ``Theme Name`` field and click the ``Save`` button.
+- Start your Plone instance, open the **ZMI** and create a Plone instance with id **Mobile**
+
+- After creation, switch to the Site Setup of Plone and click the **Mobile theming** link in the **Add-on Configuration**.
+
+- Change the field **Hostnames** to your IP and Port. For example: ``http://192.168.10.66:8081/Plone`` - now every visitor via this URL will get a different theme, than the default.
+
+- To choose which theme, the next field **Theme Name** is used. Choose the default ``zettwerk.mobile theme``.
+
+- Click the save button
+
+- Now visit the portal with the configured Url and you should see the default jquery.mobile based theme.
+
+Add a new theme
+---------------
+
+You can add new jquery.mobile based themes. This is easily done via the `jquery.mobile Themeroller <http://https://themeroller.jquerymobile.com/>`_.
+
+- Open your browser and point it to `<https://themeroller.jquerymobile.com>`_.
+
+- Use the themeroller to make customisation for swatch **A** (the left one). This is easily done by drag and drop colors to the demo area.
+
+- If you are finished, click the **Download theme zip file** Button at the top of the themeroller.
+
+- Enter the Theme Name, for example **DemoTheme** and click **Download Zip**
+
+- Now open your Plone instance and open **zettwerk.mobile Themes** in your Site Setup.
+
+- Click the Browse Button to choose you recently downloaded jquery.mobile based Theme and click **Save**.
+
+- The new theme gets automatically activated and should be visible when you reload your Mobile URL.
+
 
 Create and the app
 ------------------
@@ -51,7 +80,13 @@ For example to start the emulator with an existing emulated device just type::
     phonegap run android
 
 
-Example in video
-----------------
+Examples
+--------
 
-- `zettwerk.mobile + zettwerk.mobiletheming + phonegap for Plone <https://www.youtube.com/watch?v=Q2ID86XkiQQ>`_
+- Screencast showing the installation and creation a Demo App: `zettwerk.mobile + zettwerk.mobiletheming + phonegap for Plone <https://www.youtube.com/watch?v=Q2ID86XkiQQ>`_
+
+- Screencast showing the integartion of jquery.mobile based themes: `zettwerk.mobile with jquery.mobile's themeroller support for #plone <https://www.youtube.com/watch?v=s7n0IMjltzU>`_
+
+- Demo Portal with activated theme: `http://mobile-demo.zettwerk.com <http://mobile-demo.zettwerk.com>`_.
+
+- Demo APK (Android App) that points to the Demo Portal: `HelloWorld-debug.apk <https://github.com/macagua/plone_site_into_mobile/HelloWorld-debug.apk>`_.
